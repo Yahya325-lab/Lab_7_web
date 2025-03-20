@@ -1,11 +1,15 @@
-![image](https://github.com/user-attachments/assets/9794b357-8fec-4cda-a0c9-bd75101b5c53)|Nama|NIM|Kelas|Matkul|
+|Nama|NIM|Kelas|Matkul|
 |----|---|-----|------|
 |Yahya Ramadhan|312310401|TI.23.A4|Pemograman Web 2|
 
 &nbsp;  <br> &nbsp;
+**================================================================================**
+<br> &nbsp;
 
-**Tugas 1**
+                                                                   Tugas 1
 
+<br> &nbsp;
+**================================================================================**
 &nbsp;  <br> &nbsp;
 
 
@@ -124,11 +128,16 @@ Ini tampilan about
  ![image](https://github.com/user-attachments/assets/1264e4cd-4d26-4af8-81b8-edf4b41d5337)
 
  <br> &nbsp;<br> &nbsp;
+
+
+
  
 **================================================================================**
 
- <br> &nbsp;<br> &nbsp;
- **Tugas 2**
+                                                                  Tugas 2
+
+**================================================================================**
+
 
  1. Buat database bernama **lab_ci4** dan buat tabel bernama **artikel** di dalam nya, dan di dalam tabel artikel ada id, judul, isi, gambar, status, slug
      <br> &nbsp;
@@ -154,6 +163,116 @@ Ini tampilan about
     <br> &nbsp;
    ![image](https://github.com/user-attachments/assets/6c408e9d-2668-42fd-9732-6b01d84a1b5f)
    <br> &nbsp;
+
+5. Buat folder dengan nama **artikel** pada direktori **app/views**, kemudian buat file baru bernama **index.php**
+   <br> &nbsp;
+   ![image](https://github.com/user-attachments/assets/38e43477-bff0-499f-a0d3-cf94349a9481)
+     <br> &nbsp;
+   Lalu buka web http://localhost:8080/artikel, dan lihat apa sudah berubah apa belum, tampilannya akan seperti ini
+    <br> &nbsp;
+   ![image](https://github.com/user-attachments/assets/0fa33fa2-28ca-42bf-9d15-2c070657d206)
+     <br> &nbsp; <br> &nbsp;
+
+6. Kemudian di MySQL insert beberapa kalimat ke dalam table **artikel** yang terhubung di database
+    <br> &nbsp; <br> &nbsp;
+
+7. Lalu refresh web **artikel** nya dan cek tampilan sudah muncul apa belum
+    <br> &nbsp;
+   ![image](https://github.com/user-attachments/assets/212a90c7-5266-493a-9bb9-34009ab6e547)
+    <br> &nbsp; <br> &nbsp;
+
+8. Buat tampilan detail artikel dengan menambah fungsi baru pada **app/Controllers/artikel.php** dengan nama **View()**
+     <br> &nbsp;
+   ![image](https://github.com/user-attachments/assets/278ad721-ad9e-4184-b5d2-97d143861cf5)
+    <br> &nbsp; <br> &nbsp;
+   
+   Buat view baru untuk halaman detail artikelnya pada direktori **app/views/artikel** dengan nama **detail.php**
+    <br> &nbsp;
+   ![image](https://github.com/user-attachments/assets/b17b3f87-279a-4896-b23d-74dc67fac8c0)
+    <br> &nbsp;<br> &nbsp;
+
+   Lalu buat rute untuk artikel detail
+   <br> &nbsp;
+    |$routes->get('/artikel/(:any)', 'Artikel::view/$1');|
+    |----|
+   <br> &nbsp; <br> &nbsp;
+   
+   
+   Fungsi dari **View()** & **detail.php** ini ketika judul artikel di klik maka akan memunculkan artikel tersebut saja, ini contohnya :
+    <br> &nbsp;
+   ![image](https://github.com/user-attachments/assets/1bc0c4ad-923f-4c0c-8c96-e7c008bae25e)
+    <br> &nbsp;
+   Ketika judul artikel pertama di klik akan muncul artikel tersebut
+
+9. Buat panel Admin, menu admin digunakan untuk CRUD data artikel. Buat metode nya baru pada **app/Controllers/artikel.php** dengan **admin_index()**
+    <br> &nbsp;
+   ![image](https://github.com/user-attachments/assets/302950f1-b826-4a33-8ed3-82c776de9464)
+     <br> &nbsp;
+
+   Lalu buat view tampilan adminnya di direktori **app/Views/artikel** dengan nama **admin_index.php**
+    <br> &nbsp;
+   ![image](https://github.com/user-attachments/assets/73201db0-de47-41de-9830-ce3d2c03172d)
+    <br> &nbsp; <br> &nbsp;
+
+   Tambahkan route baru untuk menu admin di direktori **app/config/Routers.php**
+    <br> &nbsp;
+   
+   ![image](https://github.com/user-attachments/assets/7d901a65-68f6-4dd6-a144-19d707bc53cb)
+    <br> &nbsp; <br> &nbsp;
+
+   Lalu akses menu admin dengan url http://localhost:8080/admin/artikel/
+    <br> &nbsp;
+   ![image](https://github.com/user-attachments/assets/e83fa7df-37ab-404e-bfc9-28b0c3a6d9a9)
+    <br> &nbsp;<br> &nbsp;
+
+10. Menambah data artikel, menambah fungsi baru di direktori **app/Controllers/artikel.php** dengan nama **add()**
+    <br> &nbsp;
+    ![image](https://github.com/user-attachments/assets/2631c580-dfd5-46af-8723-36b99d0b258c)
+    <br> &nbsp;<br> &nbsp;
+
+    Kemudian buat view baru untuk menambah artikel di direktori **app/Views/artikel** dengan nama **form_add.php**
+    <br> &nbsp;
+    ![image](https://github.com/user-attachments/assets/c5efe6ce-df3d-477d-943a-efefd950eaa6)
+     <br> &nbsp; <br> &nbsp;
+
+11. Menmbuat fungsi untuk mengubah data artikel di direktori **app/Controllers/artikel.php** dengan nama **edit()**
+    <br> &nbsp;
+    ![image](https://github.com/user-attachments/assets/4fddab49-8900-4bcf-ab99-b28906ca0429)
+    <br> &nbsp;<br> &nbsp;
+
+    Lalu buat view untuk tampilan edit nya di direktori **app/Views/artikel** dengan nama **form_edit.php**
+    <br> &nbsp;
+    ![image](https://github.com/user-attachments/assets/f1a375ea-9f8d-4b52-9ddc-3252bdf3f088)
+     <br> &nbsp; <br> &nbsp;
+
+    Maka tampilannya seperti ini
+     <br> &nbsp;
+    ![image](https://github.com/user-attachments/assets/4c5b52f9-bb9a-404c-87af-f299dde885bc)
+    <br> &nbsp;
+    Fungsi nya untuk mengedit artikel yang sudah dibuat sebelumnya
+    <br> &nbsp; <br> &nbsp;
+
+13. Membuat fungsi hapus/delete di direktori **app/Controllers/artikel.php** dengan nama **delete()**
+     <br> &nbsp;
+    ![image](https://github.com/user-attachments/assets/c30d8bf1-64c5-4478-a81b-97d594d70f53)
+     <br> &nbsp;
+    Fungsinya untuk menghapus artikel dari table 
+
+
+    
+
+    
+
+   
+
+
+   
+
+
+
+   
+
+   
    
      
 
