@@ -1,4 +1,4 @@
-|Nama|NIM|Kelas|Matkul|
+![image](https://github.com/user-attachments/assets/a143cf67-43ef-40da-8a6d-393bb87e18ce)![image](https://github.com/user-attachments/assets/fd19de8a-81a0-44dd-bc85-0ee8180b25d5)![image](https://github.com/user-attachments/assets/775bfeec-af66-4a94-add4-b303132369f4)|Nama|NIM|Kelas|Matkul|
 |----|---|-----|------|
 |Yahya Ramadhan|312310401|TI.23.A4|Pemograman Web 2|
 
@@ -257,9 +257,74 @@ Ini tampilan about
     ![image](https://github.com/user-attachments/assets/c30d8bf1-64c5-4478-a81b-97d594d70f53)
      <br> &nbsp;
     Fungsinya untuk menghapus artikel dari table 
+       <br> &nbsp; <br> &nbsp;
 
 
+ 
+**================================================================================**
+
+                                                                  Tugas 3
+
+**================================================================================**
+
+1. Buat folder **layout** di dalam **app/Views** dan buat file dengan nama **main.php** di dalam folder **layout** dengan kode berikut
+    <br> &nbsp;
+   ![image](https://github.com/user-attachments/assets/ecaa2255-75db-47c2-baad-54f86315b159)
+   <br> &nbsp;<br> &nbsp;
+   ![image](https://github.com/user-attachments/assets/e6c98fc6-f0d2-4cc9-bcac-337a688a3189)
+   <br> &nbsp;<br> &nbsp;
+
+2. Buat file pada direktori **app/Views** dengan nama **home.php**
+   <br> &nbsp;
+   ![image](https://github.com/user-attachments/assets/36190b12-8e8a-49fd-8b46-402d78d2191c)
+   <br> &nbsp;<br> &nbsp;
+
+3. Buat class view, buat folder baru di **app/** dengan nama **Cells**, buat file **ArtikelTerkini.php** di dalam **app/Cells**
+   <br> &nbsp;
+   ![image](https://github.com/user-attachments/assets/434af6ad-2641-4700-8f4a-6e8d5501b4d3)
+    <br> &nbsp;<br> &nbsp;
+
+4. Buat folder **components** di dalam **app/Views**, dan buat file **artikel_terkini.php** di dalam direktori **app/Views/components**
+   <br> &nbsp;
+   ![image](https://github.com/user-attachments/assets/bc041cbe-565d-4240-8a47-c41742b9cc81)
+    <br> &nbsp; <br> &nbsp;
+
+5. Hasilnya akan seperti ini
+    <br> &nbsp;
+   ![image](https://github.com/user-attachments/assets/7029fe3b-e8b0-4458-974a-d4cbf1566d88)
+    <br> &nbsp;<br> &nbsp;
     
+
+**================================================================================**
+
+                                                                  Tugas & Pertanyaan
+
+**================================================================================**
+
+1. Apa manfaat utama dari penggunaan View Layout dalam pengembangan aplikasi?
+   <br> &nbsp;
+2. Jelaskan perbedaan antara View Cell dan View biasa.
+   <br> &nbsp;
+3. Ubah View Cell agar hanya menampilkan post dengan kategori tertentu..
+
+   
+<br> &nbsp;<br> &nbsp;
+
+
+
+**================================================================================**
+
+                                                                  Jawaban
+
+**================================================================================**
+
+  1. Dengan menggunakan View Layout, kode menjadi lebih modular, rapi, dan mudah dikelola, sehingga pengembangan aplikasi menjadi lebih cepat dan efisien.
+
+  2. Gunakan view() untuk menampilkan halaman utama atau bagian besar dari aplikasi, Gunakan view_cell() jika ingin membuat komponen kecil yang bisa digunakan ulang di berbagai bagian aplikasi.
+
+  3. 
+
+
 
     
 
