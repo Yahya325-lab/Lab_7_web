@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/a143cf67-43ef-40da-8a6d-393bb87e18ce)![image](https://github.com/user-attachments/assets/fd19de8a-81a0-44dd-bc85-0ee8180b25d5)![image](https://github.com/user-attachments/assets/775bfeec-af66-4a94-add4-b303132369f4)|Nama|NIM|Kelas|Matkul|
+|Nama|NIM|Kelas|Matkul|
 |----|---|-----|------|
 |Yahya Ramadhan|312310401|TI.23.A4|Pemograman Web 2|
 
