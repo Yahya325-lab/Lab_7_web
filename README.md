@@ -3,13 +3,7 @@
 |Yahya Ramadhan|312310401|TI.23.A4|Pemograman Web 2|
 
 &nbsp;  <br> &nbsp;
-**================================================================================**
-<br> &nbsp;
-
-                                                                   Tugas 1
-
-<br> &nbsp;
-**================================================================================**
+# Tugas 1
 &nbsp;  <br> &nbsp;
 
 
@@ -130,13 +124,10 @@ Ini tampilan about
  <br> &nbsp;<br> &nbsp;
 
 
+<br>
+<br>
 
- 
-**================================================================================**
-
-                                                                  Tugas 2
-
-**================================================================================**
+ # Tugas 2
 
 
  1. Buat database bernama **lab_ci4** dan buat tabel bernama **artikel** di dalam nya, dan di dalam tabel artikel ada id, judul, isi, gambar, status, slug
@@ -259,13 +250,11 @@ Ini tampilan about
     Fungsinya untuk menghapus artikel dari table 
        <br> &nbsp; <br> &nbsp;
 
+<br>
+<br>
+<br>
 
- 
-**================================================================================**
-
-                                                                  Tugas 3
-
-**================================================================================**
+# Tugas 3
 
 1. Buat folder **layout** di dalam **app/Views** dan buat file dengan nama **main.php** di dalam folder **layout** dengan kode berikut
     <br> &nbsp;
@@ -294,12 +283,10 @@ Ini tampilan about
    ![image](https://github.com/user-attachments/assets/7029fe3b-e8b0-4458-974a-d4cbf1566d88)
     <br> &nbsp;<br> &nbsp;
     
+<br>
+<br>
 
-**================================================================================**
-
-                                                                  Tugas & Pertanyaan
-
-**================================================================================**
+# Tugas
 
 1. Apa manfaat utama dari penggunaan View Layout dalam pengembangan aplikasi?
    <br> &nbsp;
@@ -310,30 +297,239 @@ Ini tampilan about
    
 <br> &nbsp;<br> &nbsp;
 
+<br>
+<br>
 
-
-**================================================================================**
-
-                                                                  Jawaban
-
-**================================================================================**
+# Jawaban 
 
   1. Dengan menggunakan View Layout, kode menjadi lebih modular, rapi, dan mudah dikelola, sehingga pengembangan aplikasi menjadi lebih cepat dan efisien.
 
   2. Gunakan view() untuk menampilkan halaman utama atau bagian besar dari aplikasi, Gunakan view_cell() jika ingin membuat komponen kecil yang bisa digunakan ulang di berbagai bagian aplikasi.
 
-  3. 
+  
+<br>
+<br>
+<br>
 
+# Tugas 4
 
+  1. Buat folder baru bernama layout dan di dalam folder layout buat file baru bernama main.php, folder layout berada di folder app/views
+<br>
+<br>
 
-    
+![image](https://github.com/user-attachments/assets/f91d0042-0549-4d31-943e-d5644d91880e)
 
-   
+<br>
+<br>
 
+2. Ubah file Home.php pada app/views menjadi seperti ini
 
-   
+<br>
+<br>
 
+![image](https://github.com/user-attachments/assets/a6a7fcc3-92de-45b7-8a00-5000cdfa22a4)
 
+<br>
+<br>
+
+3. Buat folder Cells di dalam folder app/, lalu buat file ArtikelTerkini.php di dalam app/Cells
+
+<br>
+<br>
+
+![image](https://github.com/user-attachments/assets/bb4b31a9-c15d-4c9f-83b0-a91861126178)
+
+<br>
+<br>
+
+4. Buat folder Component di dalam folder app/views, lalu buat file artikel_terkini.php di dalam app/views/Component
+
+<br>
+<br>
+
+![image](https://github.com/user-attachments/assets/538226ce-1af9-4f8b-8062-fb018b098d2b)
+
+<br>
+<br>
+
+# Tugas 5
+
+<br>
+<br>
+
+1. Buat table bernama user pada database yang berisi seperti ini
+<br>
+<br>
+
+![image](https://github.com/user-attachments/assets/3a112669-2c50-473d-8e68-fec7bbe59074)
+
+<br>
+<br>
+
+2. Lalu buat model user untuk proses data login. Buat file baru dengan nama UserModel.php pada direktori app/Models
+<br>
+<br>
+
+![image](https://github.com/user-attachments/assets/44508214-0761-407f-91dc-e05e7a08d302)
+
+<br>
+<br>
+
+3. Buat Controller baru dengan nama User.php pada direktori app/Controllers
+<br>
+<br>
+
+![image](https://github.com/user-attachments/assets/2bbbc648-8be5-452d-ad9f-7fac207e8ffe)
+
+<br>
+
+Method index() disitu berfungsi untuk menampilkan daftar user, dan method login() untuk proses login
+
+<br>
+<br>
+
+4. Buat folder baru dengan nama user pada direktori ap/views, lalu buat file  baru dengan nama login.php
+<br>
+<br>
+
+ ![image](https://github.com/user-attachments/assets/6fd80bc9-93fc-44da-9656-9e5da8aa0bc1)
+
+<br>
+<br>
+
+5. Buat database seeder, ketik ini di terminal xampp
+<br>
+<br>
+
+![image](https://github.com/user-attachments/assets/358c478e-2925-4dce-8b93-43402c7d1506)
+
+<br>
+<br>
+
+6. Buka file UserSeeder.php pada direktori app/Database/Seeds/
+<br>
+<br>
+
+![image](https://github.com/user-attachments/assets/775a9310-4192-435d-864d-f8ce9ca9acee)
+
+<br>
+<br>
+
+7. Buka terminal lagi dan ketika ini
+<br>
+<br>
+
+![image](https://github.com/user-attachments/assets/cb0e4588-a473-4810-acdb-28bb09d2adc8)
+
+<br>
+<br>
+
+8. Cek pada localhost:8080/user/login
+<br>
+<br>
+
+![image](https://github.com/user-attachments/assets/209e0089-3e35-4b90-9ae7-b01023e92500)
+
+<br>
+Apa hasilnya sudah seperti ini apa belum
+
+9. Buat file baru dengan nama Auth.php pada direktori app/Filters
+<br>
+<br>
+
+![image](https://github.com/user-attachments/assets/6602bf87-8ec3-4896-96be-783631150311)
+
+<br>
+<br>
+
+10. Buka file Filters.php pada direktori app/config dan tambahkan kode ini
+<br>
+<br>
+
+![image](https://github.com/user-attachments/assets/3123b0cd-96ae-4e5e-8b5c-768bbcb27c0a)
+
+<br>
+<br>
+
+11. Buka file Routes.php pada direktori app/config dan sesuaikan kodenya
+
+<br>
+<br>
+
+![image](https://github.com/user-attachments/assets/74626172-93d3-46e6-822a-c63bbec2870f)
+
+<br>
+<br>
+
+12. Lalu buka localhost:8080/admin/artikel
+<br>
+<br>
+
+![image](https://github.com/user-attachments/assets/209e0089-3e35-4b90-9ae7-b01023e92500)
+
+<br>
+ Tampilannya udah seperti itu apa belum
+
+<br>
+<br>
+
+13. Tambahkan fungsi logout pada Controller User
+<br>
+<br>
+
+![image](https://github.com/user-attachments/assets/7e8173ad-a612-467f-b6d2-9c1177ddc1ce)
+
+<br>
+<br>
+
+# Tugas 6
+<br>
+<br>
+
+1. Buat pagination dengan cara buka Controller Artikel pada direktori app/Controllers/artikel.php lalu modifikasi kode nya
+
+<br>
+<br>
+
+![image](https://github.com/user-attachments/assets/15201792-a871-4b9f-ac3e-cea76c2a0c4b)
+
+<br>
+<br>
+
+2. Buka file admin_index.php pada direktori app/Views/artikel dan tambahkan kode ini 
+
+``` <?= $pager->links(); ?> ```
+
+<br>
+<br>
+
+![image](https://github.com/user-attachments/assets/b1295ed9-fecb-47b2-9101-649dc2811e5e)
+
+<br>
+<br>
+
+3. Buat pencarian dengan cara buka Controller Artikel pada direktori app/Controllers/artikel.php lalu modifikasi kode nya
+
+<br>
+<br>
+
+![image](https://github.com/user-attachments/assets/15201792-a871-4b9f-ac3e-cea76c2a0c4b)
+
+<br>
+<br>
+
+4. uka file admin_index.php pada direktori app/Views/artikel dan tambahkan kode ini 
+
+``` <?= $pager->only(['q'])->links(); ?>
+ ```
+
+<br>
+<br>
+
+![image](https://github.com/user-attachments/assets/b1295ed9-fecb-47b2-9101-649dc2811e5e)
+
+<br>
+<br>
 
    
 
