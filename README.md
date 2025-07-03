@@ -518,7 +518,7 @@ Apa hasilnya sudah seperti ini apa belum
 <br>
 <br>
 
-4. uka file admin_index.php pada direktori app/Views/artikel dan tambahkan kode ini 
+4. Buka file admin_index.php pada direktori app/Views/artikel dan tambahkan kode ini 
 
 ``` <?= $pager->only(['q'])->links(); ?>
  ```
@@ -531,13 +531,192 @@ Apa hasilnya sudah seperti ini apa belum
 <br>
 <br>
 
-   
 
+# Tugas 7
+
+<br>
+<br>
+
+1. Pada controller artikel, tambah methode yang bernama add
+   <br>
+   <br>
+   ![image](https://github.com/user-attachments/assets/37e0aae7-844b-474c-8331-d556b018b7f5)
+
+<br>
+<br>
+
+2. Pada file form_add.php di app/views/artikel tambahkan input seperti ini
+   <br>
+   <br>
    
-   
-     
+   ![image](https://github.com/user-attachments/assets/eeb4e524-c297-47e9-9288-8c5dccce9d26)
+
+   <br>
+   <br>
+
+3. Tambahkan form aksi seperti ini di file form_add.php nya
+  <br>
+  <br>
+  
+   ![image](https://github.com/user-attachments/assets/7496cbf2-1831-45d2-89c7-02133429dfa0)
+
+  <br>
+  <br>
+
+4. Tes di halaman tambah artikel
+  <br>
+  <br>
+  
+   ![image](https://github.com/user-attachments/assets/4f236747-90a3-4868-8348-f3ee42339fcc)
+
+  <br>
+  <br>
+
+# Tugas 8
+
+<br>
+<br>
+
+1. Buat tabel bernama "Kategori"
+   <br>
+   <br>
+
+   ![image](https://github.com/user-attachments/assets/30a18072-cfe5-4fa8-ac3d-3ffdcee17520)
+
+  <br>
+  <br>
+
+2. Ubah tabel artikel di database
+   <br>
+   <br>
+
+   ![image](https://github.com/user-attachments/assets/810f97b6-5a8e-4dbd-b026-928c6b0da120)
+
+  <br>
+  <br>
+
+3. Buat model baru bernama KategoriModel.php
+
+   <br>
+   <br>
+
+   ![image](https://github.com/user-attachments/assets/7650c755-b9aa-46d4-8867-6da1bf3ad3d6)
+
+   <br>
+   <br>
+
+4. Ubah ArtikelModel.php  untuk mendefinisikan relasi dengan KategoriModel.php
+
+  <br>
+  <br>
+
+  ![image](https://github.com/user-attachments/assets/e27366ba-9d99-4bec-8946-782cd96e22aa)
+
+  <br>
+  <br>
+
+5. Ubah Artikel.php di app/controller/Artikel.php
+
+   <br>
+   <br>
+
+   ![image](https://github.com/user-attachments/assets/8ef9612d-0bad-4fb1-8382-bd6981130a32)
+
+    <br>
+    <br>
+
+    ![image](https://github.com/user-attachments/assets/dd362473-b56a-45d9-8016-16ea6e588b3d)
+
+    <br>
+    <br>
+
+    ![image](https://github.com/user-attachments/assets/7b5e1cb4-a3ee-4a71-8963-02602156b668)
+
+    <br>
+    <br>
+
+    ![image](https://github.com/user-attachments/assets/b76d7dea-fdff-48fc-8706-ef8961a1760f)
+
+    <br>
+    <br>
+
+    ![Screenshot 2025-07-03 202345](https://github.com/user-attachments/assets/2e291c30-acad-4ffb-a1d7-c0d38ddbc082)
+
+    <br>
+    <br>
+
+    ![Screenshot 2025-07-03 202406](https://github.com/user-attachments/assets/5b45bfa0-7843-4336-b6e1-c7aa46387331)
+
+    <br>
+    <br>
+
+6. Ubah index.php pada view/artikel
+
+   <br>
+   <br>
+
+   ![image](https://github.com/user-attachments/assets/ff4ce174-e446-430e-b7fb-d3036e01bb7f)
+
+  <br>
+  <br>
+
+7. Ubah admin_index.php pada view/artikel juga
+
+   <br>
+   <br>
+
+   ![image](https://github.com/user-attachments/assets/ee99838e-6289-4509-b3c2-2bc44f12e444)
+
+   <br>
+   <br>
+
+   ![image](https://github.com/user-attachments/assets/e6dd20a0-20c9-4d36-ac73-8e219325eff7)
+
+  <br>
+  <br>
+
+  ![image](https://github.com/user-attachments/assets/31191644-b420-4735-b496-65ea85e5f475)
+
+  <br>
+  <br>
+
+8. ubah form_Add.php pada view/artikel juga
+
+   <br>
+   <br>
+
+   ![image](https://github.com/user-attachments/assets/6783463e-46e7-4888-abae-6cec4ce49224)
+
+   <br>
+   <br>
+
+   ![image](https://github.com/user-attachments/assets/8a5f6eff-373d-4a14-9b3f-e75f9cda14eb)
+
+   <br>
+   <br>
+
+9. Ubah form_Edit.php juga di view/artikel
+
+    <br>
+    <br>
+
+    ![image](https://github.com/user-attachments/assets/787f74a7-06d5-424d-bb52-b1d209cb6848)
+
+    <br>
+    <br>
+
+    ![image](https://github.com/user-attachments/assets/6007cdba-0fb1-49a7-910b-aa695544d7a5)
 
 
+    <br>
+    <br>
+
+# Tugas 9
+
+  <br>
+  <br>
+
+  
 
 
 
