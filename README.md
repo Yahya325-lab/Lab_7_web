@@ -716,7 +716,337 @@ Apa hasilnya sudah seperti ini apa belum
   <br>
   <br>
 
+  1. Salin file query **jquery-3.6.0.min.js** ke dalam folder public/assets/js
+
+     <br>
+     <br>
+
+     ![image](https://github.com/user-attachments/assets/beaf0a8f-f2d7-4aea-b298-3b8bfe36ef6f)
+
+     <br>
+     <br>
+
+
+  2. Buat AJAX controller
+
+     <br>
+     <br>
+
+     ![image](https://github.com/user-attachments/assets/d51493a4-82ff-46af-95db-d169eacc793c)
+
+     <br>
+     <br>
+
+     ![image](https://github.com/user-attachments/assets/eb7ad226-bbb5-4753-88b6-0d44150e1ae1)
+
+     <br>
+     <br>
+
+3. Buat view untuk AJAX di app/views/ajax
+
+   <br>
+   <br>
+
+   ![image](https://github.com/user-attachments/assets/2a3de9e3-6ba9-47eb-b2b6-c77e449b40b8)
+
+   <br>
+   <br>
+
+   ![image](https://github.com/user-attachments/assets/ee5831eb-f460-42f2-a60d-f31dea62e0de)
+
+   <br>
+   <br>
+
+   ![image](https://github.com/user-attachments/assets/b6c1aa2e-640d-4546-81ea-8bbb7d9d7757)
+
+   <br>
+   <br>
+
+   ![image](https://github.com/user-attachments/assets/8d00ae5e-28a6-4ec7-ade7-e9b08839adc0)
+
+   <br>
+   <br>
+
+# Tugas 10
+
+  <br>
+  <br>
+
+1. Ubah method pada admin_index() di file Artikel.php
+
+   <br>
+   <br>
+
+   ![image](https://github.com/user-attachments/assets/8873edab-810e-4b61-8e7c-0acf8eb6098b)
+
+   <br>
+   <br>
+
+2. Ubah view pada admin_index.php
+
+   <br>
+   <br>
+
+   ![image](https://github.com/user-attachments/assets/5607ef32-5c19-4404-a605-009fad9eca24)
+
+   <br>
+   <br>
+
+   ![image](https://github.com/user-attachments/assets/5e54397e-1c6e-4a7d-b53b-7e3735fd56d3)
+
+   <br>
+   <br>
+
+   ![image](https://github.com/user-attachments/assets/7c3cbde2-f761-4575-88ec-6f18b4a65b29)
+
+   <br>
+   <br>
+
+3. Tampilan pada AJAX nya
+
+   <br>
+   <br>
+
+   ![image](https://github.com/user-attachments/assets/167e519d-a724-44c2-809d-5fdd158a66b6)
+
+   <br>
+   <br>
+
+# Tugas 11
+
+  <br>
+  <br>
+
+1. Buat controller untuk Postman yang bernama Post.php
+
+   <br>
+   <br>
+
+   ![image](https://github.com/user-attachments/assets/fe1e296a-20e7-43c6-a735-9573014ae1fe)
+
+   <br>
+   <br>
+
+2. Buat routes untuk API nya
+
+   <br>
+   <br>
+
+  ``` $routes->resource('post'); ```
+
+  <br>
+  <br>
+
+3. Cek routes nya di shell menggunakan ``` php spark routes  ```
+
+   <br>
+   <br>
+
+   ![image](https://github.com/user-attachments/assets/dcc70f1e-cab2-4f4b-8164-5ce7315f4557)
+
+   <br>
+   <br>
+
+4. Buka aplikasi Postman dan pilih create new -> Http Request
+
+   <br>
+   <br>
+
+   ![image](https://github.com/user-attachments/assets/f33139c7-1cc9-4e63-83f6-4d04ae87f066)
+
+   <br>
+   <br>
+
+5. Untuk menampilkan semua data klik methode GET dan masukkan URL http://localhost:8080/post
+
+   <br>
+   <br>
+
+   ![image](https://github.com/user-attachments/assets/7e97f96f-ad6f-4c36-b890-0fdfe30fda1a)
+
+   <br>
+   <br>
+
+6. Untuk menampikan data spesifik bisa menggunakan methode GET dan menambahkan id dibelakang URL nya, contoh http://localhost:8080/post/9
+
+   <br>
+   <br>
+
+   ![image](https://github.com/user-attachments/assets/b2e40452-3faa-4557-845d-7fa0283cc534)
+
+   <br>
+   <br>
+
+7. Untuk menambahkan data bisa menggunakan methode POST
+
+   <br>
+   <br>
+
+   ![image](https://github.com/user-attachments/assets/762b4ecd-c20e-4b48-971f-4215ed293559)
+
+   <br>
+   <br>
+
+   pilih **Body** dan lalu pilih **x-www-form-uriencoded** dan masukan atribut tabel pada kolom **KEY** dan nilai data baru di kolom **VALUE** dan jangan lupa klik send
+
+   <br>
+   <br>
+
+![image](https://github.com/user-attachments/assets/effb8cb6-b3fb-41e2-86b0-bda0ad99d9ea)
+
+
+   <br>
+   <br>
+
+8. Untuk menghapus data bisa menggunakan methode delete. Lalu masukkan URL spesifik dan data yang mana yang ingin dihapus, contoh http://localhost:8080/post/11
+
+   <br>
+   <br>
+
+   ![image](https://github.com/user-attachments/assets/dd9072d8-c9c7-4b07-86e1-56f308c8f389)
+
+   <br>
+   <br>
+
+# Tugas 12
+
+  <br>
+  <br>
+
+1. VueJs, buat struktur nya seperti ini
+
+   📂 project-root  
+├── index.html  
+└── assets  
+    ├── css  
+    │   └── style.css  
+    └── js  
+        └── app.js  
+
+  <br>
+  <br>
+
+2. Buat index.html nya seperti ini
+
+   <br>
+   <br>
+
+   ![image](https://github.com/user-attachments/assets/b04f94ec-ffe5-49f5-8ae2-dd2873820bd2)
+
+   <br>
+   <br>
+
+   ![image](https://github.com/user-attachments/assets/cb6d9ebc-877b-44a5-8735-514fa177fe21)
+
+   <br>
+   <br>
+
+   ![image](https://github.com/user-attachments/assets/3d421ffd-e7f2-4295-982d-4283c41dfb31)
+
+   <br>
+   <br>
+
+3. Buat file app.js
+
+   <br>
+   <br>
+
+   ![image](https://github.com/user-attachments/assets/a2950c2e-9ddc-49b4-b569-e0fd7a3b4483)
+
+   <br>
+   <br>
+
+   Sesuaikan API nya masing2
+
+   <br>
+   <br>
+
+   ![image](https://github.com/user-attachments/assets/f0e7c43e-8f06-4d91-8265-2e4e6e13932f)
+
+   <br>
+   <br>
+
+   ![image](https://github.com/user-attachments/assets/5a2f96d0-2817-42d5-8a83-59087dd40269)
+
+   <br>
+   <br>
+
+   Contoh tampilannya
+
+   <br>
+   <br>
+
+   ![image](https://github.com/user-attachments/assets/673cd606-b0b6-4d70-8d12-b668b31c41f1)
+
+   <br>
+   <br>
+
+4. Buat CSS nya
+
+   <br>
+   <br>
+
+   ![Screenshot 2025-07-04 125747](https://github.com/user-attachments/assets/aae0019f-adfe-4791-a7b9-6fb2e74d87aa)
+
+   <br>
+   <br>
+
+   ![Screenshot 2025-07-04 125756](https://github.com/user-attachments/assets/fd1b62e8-2848-4a51-bef9-210c7ee8f6c9)
+
+   <br>
+   <br>
+
+   ![image](https://github.com/user-attachments/assets/471cee15-02f9-4e20-81db-5883de040748)
+
+   <br>
+   <br>
+
+   Tampilan untuk menambahkan data :
+
+   <br>
+   <br>
+
+   ![image](https://github.com/user-attachments/assets/fb26d93e-a799-495a-8f0b-fac3475afb26)
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+
   
+   
+
+   
+
+
+
+
+
+   
+   
+
+
+
+
+
+
+
+
+
+
+
+    
 
 
 
